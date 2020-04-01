@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
             //create model, add model to scene
             ModelRenderable.builder()
-                    .setSource(this, Uri.parse("ArcticFoc_Posed.sfb.sfb"))
+                    .setSource(this, Uri.parse("ArcticFox_Posed.sfb.sfb"))
                     .build()
                     .thenAccept(modelRenderable -> addModelToScene(anchor, modelRenderable))
                     .exceptionally(throwable -> {
