@@ -1,2 +1,1 @@
-# AR-Indoor-Navigation
-AR indoor navigation using Sceneform and ARCore
+# Sceneform Augmented Reality Projection
